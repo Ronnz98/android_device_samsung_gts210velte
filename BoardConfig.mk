@@ -24,9 +24,6 @@ TARGET_OTA_ASSERT_DEVICE := gts210velte
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
-# Display
-SF_PRIMARY_DISPLAY_ORIENTATION := 270
-
 # Kernel
 TARGET_KERNEL_CONFIG := gts210velte_defconfig
 
