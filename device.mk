@@ -47,5 +47,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.vibrator@1.0-impl
 
+# Display
+SF_PRIMARY_DISPLAY_ORIENTATION := 270
+
 # Inherit from msm8976-common
 $(call inherit-product, device/samsung/msm8976-common/msm8976.mk)
