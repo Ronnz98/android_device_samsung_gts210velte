@@ -15,3 +15,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_gts210velte.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_gts210velte-user \
+    lineage_gts210velte-userdebug \
+    lineage_gts210velte-eng
