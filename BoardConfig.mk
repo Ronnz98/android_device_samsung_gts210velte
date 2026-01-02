@@ -24,6 +24,9 @@ TARGET_OTA_ASSERT_DEVICE := gts210velte
 # HIDL
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
+# Include path
+TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
+
 # Kernel
 TARGET_KERNEL_CONFIG := gts210velte_defconfig
 
