@@ -35,3 +35,10 @@ service qmuxd /vendor/bin/qmuxd
 service netmgrd /vendor/bin/netmgrd
     class main
     group wakelock
+
+# Samsung RIL Daemon 
+service ril-daemon /vendor/bin/hw/rild
+    class main
+    user radio
+    group radio cache inet misc audio log readproc wakelock
+    capabilities BLOCK_SUSPEND NET_ADMIN NET_RAW
