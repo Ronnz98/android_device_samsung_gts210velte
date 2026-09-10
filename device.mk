@@ -43,10 +43,6 @@ PRODUCT_PACKAGES += \
     librmnetctl \
     libshims_rild_socket
 
-# Vibrator
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator@1.0-impl
-
 # Display
 SF_PRIMARY_DISPLAY_ORIENTATION := 270
 
