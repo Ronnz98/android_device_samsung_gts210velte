@@ -59,4 +59,7 @@
         <item>"7,1"</item>
         <item>"9,1"</item>
     </string-array>
+        
+    <!-- Deactovate extended Link-Layer-Stats -->
+    <bool name="config_wifi_link_layer_stats_supported">false</bool>
 </resources>
