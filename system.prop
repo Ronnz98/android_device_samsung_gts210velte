@@ -27,3 +27,6 @@ ro.telephony.call_ring.multiple=0
 ro.multisim.simslotcount=1
 persist.radio.multisim.config=single
 telephony.lteOnGsmDevice=1
+
+# Deactivate BatteryExternalStatsWorker
+ro.bluetooth.emb_wp_mode=false
