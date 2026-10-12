@@ -269,7 +269,7 @@
             <route type="mix" sink="surround_sound"
                    sources="Built-In_Mic,Built-In_Back_Mic"/>
             <route type="mix" sink="Telephony_Tx"
-                   sources="Built-In_Mic,Built-In_Back_Mic,Wired_Headset_Mic,BT_SCO_Headset_Mic"/>
+                   sources="Built-In_Mic,Built-In_Back_Mic,Wired Headset Mic,BT_SCO_Headset_Mic"/>
             <route type="mix" sink="voice_rx"
                    sources="Telephony_Rx"/>
         </routes>
